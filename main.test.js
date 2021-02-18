@@ -17,22 +17,20 @@ function multiply (number1, number2, number3){
   prod = number1 * number2 * number3;
 }
 
-function returnWhatISay ('Hello students, how are you'){
-  return "Hello students, how are you";
+function sayHi (name){
+  return 'Hello' + name + '!' ;
 }
 
-function sayHi (personalizedgreeting){
-  return 'Hi' + personalizedgreeting ;
+function returnWhatISay (str){
+  return str;
 }
 
-function divide (x , y){
-  return x / y;
+function divide (num1, num2){
+  return num1/ num2;
 }
 
-
-
-function remainder (num){
-  return x / y % num;
+function remainder (num1, num2){
+  return num1 % num2;
 }
 
 
